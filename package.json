@@ -1,0 +1,19 @@
+{
+  "name": "yearn-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "abi-gen1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "check-engines": "^1.5.0",
+    "cosmiconfig": "^7.0.0",
+    "cosmiconfig-toml-loader": "^1.0.0",
+    "sha3": "^2.1.3"
+  }
+}
