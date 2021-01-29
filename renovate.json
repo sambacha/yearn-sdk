@@ -3,7 +3,13 @@
   "extends": [
     "config:base"
   ],
-    "labels": [
-    "automerge"
-  ]
+  "automerge": true,
+  "pinVersions": false,
+  "major": {
+    "automerge": false
+  },
+  "devDependencies": {
+    "automerge": true,
+    "pinVersions": true
+  }
 }
