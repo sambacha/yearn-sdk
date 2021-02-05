@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "ysdk-plugin",
+  "version": "0.0.1",
+  "generators": {
+    "ysdk-plugin": {
+      "factory": "./src/generators/ysdk-plugin/generator",
+      "schema": "./src/generators/ysdk-plugin/schema.json",
+      "description": "ysdk-plugin generator"
+    }
+  }
+}

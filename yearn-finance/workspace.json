@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "projects": {
+    "ysdk-plugin": {
+      "root": "packages/ysdk-plugin",
+      "sourceRoot": "packages/ysdk-plugin/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/ysdk-plugin/**/*.ts"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/packages/ysdk-plugin"
+          ],
+          "options": {
+            "jestConfig": "packages/ysdk-plugin/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/node:package",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "outputPath": "dist/packages/ysdk-plugin",
+            "tsConfig": "packages/ysdk-plugin/tsconfig.lib.json",
+            "packageJson": "packages/ysdk-plugin/package.json",
+            "main": "packages/ysdk-plugin/src/index.ts",
+            "assets": [
+              "packages/ysdk-plugin/*.md",
+              {
+                "input": "./packages/ysdk-plugin/src",
+                "glob": "**/*.!(ts)",
+                "output": "./src"
+              },
+              {
+                "input": "./packages/ysdk-plugin",
+                "glob": "generators.json",
+                "output": "."
+              },
+              {
+                "input": "./packages/ysdk-plugin",
+                "glob": "executors.json",
+                "output": "."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ysdk-plugin-e2e": {
+      "projectType": "application",
+      "root": "e2e/ysdk-plugin-e2e",
+      "sourceRoot": "e2e/ysdk-plugin-e2e/src",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/nx-plugin:e2e",
+          "options": {
+            "target": "ysdk-plugin:build",
+            "npmPackageName": "@yearn-finance/ysdk-plugin",
+            "pluginOutputPath": "dist/packages/ysdk-plugin",
+            "jestConfig": "e2e/ysdk-plugin-e2e/jest.config.js"
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/workspace"
+  }
+}
