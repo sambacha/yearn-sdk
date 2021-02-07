@@ -2,56 +2,84 @@
 
 # YearnFinance
 
-This project was generated using [Nx](https://nx.dev).
+## Configuration Management 
+> `yearn_config.json` 
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+A global configuration file that can be found at the root of workspace and a 
+project-specific configuration file found at the root of each project that overrides 
+the global settings for that project.
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+For instance, libA has a tsconfig.json file that extends the global tsconfig.json file:
+
+```
+YEARN-applet // Applet, Plugin, Integration, a discrete package of libraries  etc 
+├── apps
+├── libs
+│   └── libA
+│       ├── src
+│       └── tsconfig.json
+├── tools
+├── workspace.json // can be for yarn , etc 
+├── yearn_config.json // customized configuration and hook entrypoint
+├── package.json
+└── tsconfig.json
+```
+
+## Monorepo Struct
+
+```
+YEARN-SDK-monorepo
+├── e2e
+│   └── YEARN-plugin-e2e
+│       ├── jest.config.js
+│       ├── tests
+│       │   └── YEARN-plugin.test.ts
+│       ├── tsconfig.json
+│       └── tsconfig.spec.json
+├── packages 
+│   └── YEARN-plugin
+│       ├── README.md
+│       ├── executors.json
+│       ├── collection.json
+│       ├── jest.config.js
+│       ├── package.json
+│       ├── src
+│       │   ├── executors
+│       │   │   └── YEARN-plugin
+│       │   │       ├── executor.spec.ts
+│       │   │       ├── executor.ts
+│       │   │       ├── schema.d.ts
+│       │   │       └── schema.json
+│       │   ├── index.ts
+│       │   └── generators
+│       │       └── YEARN-plugin
+│       │           ├── files
+│       │           │   └── src
+│       │           │       └── index.ts.__template__
+│       │           ├── schema.d.ts
+│       │           ├── schema.json
+│       │           ├── generator.spec.ts
+│       │           └── generator.ts
+│       ├── tsconfig.json
+│       ├── tsconfig.lib.json
+│       └── tsconfig.spec.json
+├── tools
+│   ├── generators
+│   └── tsconfig.tools.json
+├── jest.config.js
+├── yearn_config.json // workspace configuration hook 
+├── package.json
+├── tsconfig.json
+├── workspace.json
+└── yarn.lock
+```
+
+
 
 ## Adding capabilities to your workspace
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are our core plugins:
-
-- [React](https://reactjs.org)
-  - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
-  - `npm install --save-dev @nrwl/web`
-- [Angular](https://angular.io)
-  - `npm install --save-dev @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `npm install --save-dev @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `npm install --save-dev @nrwl/express`
-- [Node](https://nodejs.org)
-  - `npm install --save-dev @nrwl/node`
-
-There are also many [community plugins](https://nx.dev/nx-community) you could add.
-
-## Generate an application
-
-Run `nx g @nrwl/react:app my-app` to generate an application.
-
-> You can use any of the plugins above to generate applications as well.
-
-When using Nx, you can create multiple applications and libraries in the same workspace.
-
-## Generate a library
-
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are shareable across libraries and applications. They can be imported from `@yearn-finance/mylib`.
-
-## Development server
-
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
+## Generate React Component 
 
 Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
 
