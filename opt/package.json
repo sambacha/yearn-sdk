@@ -28,9 +28,9 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@nrwl/tao": "11.1.5",
-    "@nrwl/cli": "11.1.5",
-    "@nrwl/workspace": "11.1.5",
+    "@nrwl/tao": "11.2.10",
+    "@nrwl/cli": "11.2.10",
+    "@nrwl/workspace": "11.2.10",
     "@types/node": "12.12.38",
     "dotenv": "6.2.0",
     "ts-node": "9.1.1",
