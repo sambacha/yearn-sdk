@@ -25,7 +25,7 @@
     "@types/node": "14.14.25",
     "chai": "4.3.0",
     "ethereum-waffle": "3.2.2",
-    "ethers": "5.0.26",
+    "ethers": "5.0.30",
     "hardhat": "2.0.8",
     "hardhat-typechain": "0.3.4",
     "rimraf": "3.0.2",
