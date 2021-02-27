@@ -758,10 +758,10 @@
     crypto-js "^3.1.9-1"
     debug "^4.3.1"
 
-"@typechain/ethers-v5@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/@typechain/ethers-v5/-/ethers-v5-6.0.0.tgz"
-  integrity sha512-yJhl3j5mab3yl8qm1TsvHQKwrUPn491SBJvHf/b3PKVtt0VxXJwU2T05yzqEpkMFGA0qkmp3cxQJDK2WGIPP+g==
+"@typechain/ethers-v5@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.npmjs.org/@typechain/ethers-v5/-/ethers-v5-6.0.1.tgz"
+  integrity sha512-MNrB/lR9TQoubAXWscPzSMCmPNWVwoRlABYQS/al7lP6kGkaA3ObtLy3v1YHCF9T3qdxdpID/5qrmn89s4MEWw==
 
 "@types/bn.js@*":
   version "5.1.0"
@@ -3232,7 +3232,6 @@ ethereumjs-abi@0.6.5:
 ethereumjs-abi@0.6.8, ethereumjs-abi@^0.6.8, "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version "0.6.8"
   resolved "git+ssh://git@github.com/ethereumjs/ethereumjs-abi.git#1ce6a1d64235fabe2aaf827fd606def55693508f"
-  integrity sha512-wi9Z2SJADILAB9hIHiA/qMu2c4X+34LV4SFk3zqoXKk2u99S+WuwYBKly+drMaXxAIdHESeVgm3DH4NM3k8zgw==
   dependencies:
     bn.js "^4.11.8"
     ethereumjs-util "^6.0.0"
@@ -7547,7 +7546,7 @@ typedarray@^0.0.6:
 
 typescript@4.2.2:
   version "4.2.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.2.tgz#1450f020618f872db0ea17317d16d8da8ddb8c4c"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.2.2.tgz"
   integrity sha512-tbb+NVrLfnsJy3M59lsDgrzWIflR4d4TIUjz+heUnHZwdF7YsrMTKoRERiIvI2lvBG95dfpLxB21WZhys1bgaQ==
 
 typewise-core@^1.2, typewise-core@^1.2.0:
