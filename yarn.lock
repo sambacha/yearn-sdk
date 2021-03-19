@@ -741,10 +741,10 @@
     fast-check "^2.12.1"
     source-map-support "^0.5.19"
 
-"@truffle/artifactor@4.0.98":
-  version "4.0.98"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.98.tgz"
-  integrity sha512-hUhjg5zh0YSepSCaiaqnMqeuTfFKaul2LuWnatqT9FSlEmHYFJNS8rw+9G/iF4NoFk7jt4jv9YgqTzrPhDRKSA==
+"@truffle/artifactor@4.0.99":
+  version "4.0.99"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.99.tgz"
+  integrity sha512-E4GenDI7ylEBU6jhDl6L2uy+L1XO4Nxd1c0y3JJg4IEMU9meo6S39IRZeHThsI9+F4iBpL7zmMTunqbKRUzCRQ==
   dependencies:
     "@truffle/contract-schema" "^3.3.4"
     fs-extra "^9.1.0"
