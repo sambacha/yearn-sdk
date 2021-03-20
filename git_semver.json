@@ -1,14 +1,16 @@
 {
-    "release": {
+  "release": {
     "branch": "master",
     "tagFormat": "${version}",
     "analyzeCommits": {
       "preset": "angular",
-      "releaseRules": [{
-        "type": "docs",
-        "scope": "readme.md",
-        "release": "patch"
-      }]
+      "releaseRules": [
+        {
+          "type": "docs",
+          "scope": "readme.md",
+          "release": "patch"
+        }
+      ]
     }
   }
 }

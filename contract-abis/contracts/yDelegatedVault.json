@@ -1007,15 +1007,15 @@
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
     "3": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/ERC20.sol",
     "4": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/ERC20Detailed.sol",
+    "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
+    "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
+    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
     "42": "contracts/vaults/yDelegatedVault.sol",
     "45": "interfaces/aave/Aave.sol",
     "46": "interfaces/aave/AaveToken.sol",
     "47": "interfaces/aave/LendingPoolAddressesProvider.sol",
     "48": "interfaces/aave/Oracle.sol",
-    "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
-    "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
-    "62": "interfaces/yearn/IController.sol",
-    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol"
+    "62": "interfaces/yearn/IController.sol"
   },
   "ast": {
     "absolutePath": "contracts/vaults/yDelegatedVault.sol",
@@ -16637,6 +16637,32 @@
         }
       },
       "4": {},
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "136": [
+            3261,
+            3288,
+            true
+          ],
+          "137": [
+            3479,
+            3486,
+            true
+          ],
+          "138": [
+            3538,
+            3559,
+            false
+          ],
+          "139": [
+            3667,
+            3697,
+            true
+          ]
+        }
+      },
+      "7": {},
       "42": {
         "yDelegatedVault._rebalance": {
           "127": [
@@ -16745,33 +16771,7 @@
       "46": {},
       "47": {},
       "48": {},
-      "5": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "136": [
-            3261,
-            3288,
-            true
-          ],
-          "137": [
-            3479,
-            3486,
-            true
-          ],
-          "138": [
-            3538,
-            3559,
-            false
-          ],
-          "139": [
-            3667,
-            3697,
-            true
-          ]
-        }
-      },
-      "62": {},
-      "7": {}
+      "62": {}
     },
     "statements": {
       "0": {
@@ -16979,6 +16979,43 @@
           "45": [
             902,
             916
+          ]
+        }
+      },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "109": [
+            3253,
+            3324
+          ],
+          "110": [
+            3471,
+            3523
+          ],
+          "111": [
+            3659,
+            3744
+          ]
+        },
+        "SafeERC20.safeTransfer": {
+          "79": [
+            744,
+            829
+          ]
+        },
+        "SafeERC20.safeTransferFrom": {
+          "104": [
+            942,
+            1037
+          ]
+        }
+      },
+      "7": {
+        "Address.isContract": {
+          "113": [
+            1238,
+            1289
           ]
         }
       },
@@ -17334,44 +17371,7 @@
       "46": {},
       "47": {},
       "48": {},
-      "5": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "109": [
-            3253,
-            3324
-          ],
-          "110": [
-            3471,
-            3523
-          ],
-          "111": [
-            3659,
-            3744
-          ]
-        },
-        "SafeERC20.safeTransfer": {
-          "79": [
-            744,
-            829
-          ]
-        },
-        "SafeERC20.safeTransferFrom": {
-          "104": [
-            942,
-            1037
-          ]
-        }
-      },
-      "62": {},
-      "7": {
-        "Address.isContract": {
-          "113": [
-            1238,
-            1289
-          ]
-        }
-      }
+      "62": {}
     }
   },
   "dependencies": [

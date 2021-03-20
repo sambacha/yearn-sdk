@@ -598,13 +598,13 @@
   ],
   "allSourcePaths": {
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
-    "20": "contracts/strategies/StrategyCurveEURVoterProxy.sol",
     "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
-    "51": "interfaces/curve/Curve.sol",
     "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
+    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
+    "20": "contracts/strategies/StrategyCurveEURVoterProxy.sol",
+    "51": "interfaces/curve/Curve.sol",
     "60": "interfaces/uniswap/Uni.sol",
     "62": "interfaces/yearn/IController.sol",
-    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
     "71": "interfaces/yearn/IVoterProxy.sol"
   },
   "ast": {
@@ -13345,6 +13345,32 @@
           ]
         }
       },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "104": [
+            3261,
+            3288,
+            true
+          ],
+          "105": [
+            3479,
+            3486,
+            true
+          ],
+          "106": [
+            3538,
+            3559,
+            false
+          ],
+          "107": [
+            3667,
+            3697,
+            true
+          ]
+        }
+      },
+      "7": {},
       "20": {
         "StrategyCurveEURVoterProxy.deposit": {
           "103": [
@@ -13508,35 +13534,9 @@
           ]
         }
       },
-      "5": {},
       "51": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "104": [
-            3261,
-            3288,
-            true
-          ],
-          "105": [
-            3479,
-            3486,
-            true
-          ],
-          "106": [
-            3538,
-            3559,
-            false
-          ],
-          "107": [
-            3667,
-            3697,
-            true
-          ]
-        }
-      },
       "60": {},
       "62": {},
-      "7": {},
       "71": {}
     },
     "statements": {
@@ -13575,6 +13575,47 @@
           "71": [
             1837,
             1866
+          ]
+        }
+      },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "73": [
+            3253,
+            3324
+          ],
+          "74": [
+            3471,
+            3523
+          ],
+          "75": [
+            3659,
+            3744
+          ]
+        },
+        "SafeERC20.safeApprove": {
+          "68": [
+            1406,
+            1556
+          ],
+          "69": [
+            1566,
+            1655
+          ]
+        },
+        "SafeERC20.safeTransfer": {
+          "67": [
+            744,
+            829
+          ]
+        }
+      },
+      "7": {
+        "Address.isContract": {
+          "76": [
+            1238,
+            1289
           ]
         }
       },
@@ -13870,50 +13911,9 @@
           ]
         }
       },
-      "5": {},
       "51": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "73": [
-            3253,
-            3324
-          ],
-          "74": [
-            3471,
-            3523
-          ],
-          "75": [
-            3659,
-            3744
-          ]
-        },
-        "SafeERC20.safeApprove": {
-          "68": [
-            1406,
-            1556
-          ],
-          "69": [
-            1566,
-            1655
-          ]
-        },
-        "SafeERC20.safeTransfer": {
-          "67": [
-            744,
-            829
-          ]
-        }
-      },
       "60": {},
       "62": {},
-      "7": {
-        "Address.isContract": {
-          "76": [
-            1238,
-            1289
-          ]
-        }
-      },
       "71": {}
     }
   },

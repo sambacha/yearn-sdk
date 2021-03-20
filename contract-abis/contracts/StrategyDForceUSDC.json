@@ -444,14 +444,14 @@
   ],
   "allSourcePaths": {
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
-    "26": "contracts/strategies/StrategyDForceUSDC.sol",
     "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
+    "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
+    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
+    "26": "contracts/strategies/StrategyDForceUSDC.sol",
     "56": "interfaces/dforce/Rewards.sol",
     "57": "interfaces/dforce/Token.sol",
-    "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
     "60": "interfaces/uniswap/Uni.sol",
-    "62": "interfaces/yearn/IController.sol",
-    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol"
+    "62": "interfaces/yearn/IController.sol"
   },
   "ast": {
     "absolutePath": "contracts/strategies/StrategyDForceUSDC.sol",
@@ -12612,6 +12612,32 @@
           ]
         }
       },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "90": [
+            3261,
+            3288,
+            true
+          ],
+          "91": [
+            3479,
+            3486,
+            true
+          ],
+          "92": [
+            3538,
+            3559,
+            false
+          ],
+          "93": [
+            3667,
+            3697,
+            true
+          ]
+        }
+      },
+      "7": {},
       "26": {
         "StrategyDForceUSDC._withdrawAll": {
           "89": [
@@ -12734,36 +12760,10 @@
           ]
         }
       },
-      "5": {},
       "56": {},
       "57": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "90": [
-            3261,
-            3288,
-            true
-          ],
-          "91": [
-            3479,
-            3486,
-            true
-          ],
-          "92": [
-            3538,
-            3559,
-            false
-          ],
-          "93": [
-            3667,
-            3697,
-            true
-          ]
-        }
-      },
       "60": {},
-      "62": {},
-      "7": {}
+      "62": {}
     },
     "statements": {
       "1": {
@@ -12805,6 +12805,47 @@
           "65": [
             1837,
             1866
+          ]
+        }
+      },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "66": [
+            3253,
+            3324
+          ],
+          "67": [
+            3471,
+            3523
+          ],
+          "68": [
+            3659,
+            3744
+          ]
+        },
+        "SafeERC20.safeApprove": {
+          "60": [
+            1406,
+            1556
+          ],
+          "61": [
+            1566,
+            1655
+          ]
+        },
+        "SafeERC20.safeTransfer": {
+          "59": [
+            744,
+            829
+          ]
+        }
+      },
+      "7": {
+        "Address.isContract": {
+          "69": [
+            1238,
+            1289
           ]
         }
       },
@@ -13064,51 +13105,10 @@
           ]
         }
       },
-      "5": {},
       "56": {},
       "57": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "66": [
-            3253,
-            3324
-          ],
-          "67": [
-            3471,
-            3523
-          ],
-          "68": [
-            3659,
-            3744
-          ]
-        },
-        "SafeERC20.safeApprove": {
-          "60": [
-            1406,
-            1556
-          ],
-          "61": [
-            1566,
-            1655
-          ]
-        },
-        "SafeERC20.safeTransfer": {
-          "59": [
-            744,
-            829
-          ]
-        }
-      },
       "60": {},
-      "62": {},
-      "7": {
-        "Address.isContract": {
-          "69": [
-            1238,
-            1289
-          ]
-        }
-      }
+      "62": {}
     }
   },
   "dependencies": [

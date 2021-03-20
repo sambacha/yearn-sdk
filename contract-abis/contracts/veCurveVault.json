@@ -903,8 +903,8 @@
   ],
   "allSourcePaths": {
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
-    "41": "contracts/vaults/CurveVault.sol",
-    "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol"
+    "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
+    "41": "contracts/vaults/CurveVault.sol"
   },
   "ast": {
     "absolutePath": "contracts/vaults/CurveVault.sol",
@@ -19436,6 +19436,7 @@
           ]
         }
       },
+      "5": {},
       "41": {
         "veCurveVault._claim": {
           "114": [
@@ -19654,8 +19655,7 @@
             false
           ]
         }
-      },
-      "5": {}
+      }
     },
     "statements": {
       "1": {
@@ -19692,6 +19692,7 @@
           ]
         }
       },
+      "5": {},
       "41": {
         "veCurveVault._claim": {
           "72": [
@@ -20077,8 +20078,7 @@
             10408
           ]
         }
-      },
-      "5": {}
+      }
     }
   },
   "dependencies": [

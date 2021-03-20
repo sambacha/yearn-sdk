@@ -297,13 +297,13 @@
   ],
   "allSourcePaths": {
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
+    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
+    "8": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/EnumerableSet.sol",
     "12": "contracts/registries/YRegistry.sol",
     "62": "interfaces/yearn/IController.sol",
     "68": "interfaces/yearn/IStrategy.sol",
-    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
     "70": "interfaces/yearn/IVault.sol",
-    "72": "interfaces/yearn/IWrappedVault.sol",
-    "8": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/EnumerableSet.sol"
+    "72": "interfaces/yearn/IWrappedVault.sol"
   },
   "ast": {
     "absolutePath": "contracts/registries/YRegistry.sol",
@@ -9661,6 +9661,28 @@
   "coverageMap": {
     "branches": {
       "1": {},
+      "7": {},
+      "8": {
+        "EnumerableSet.add": {
+          "76": [
+            1034,
+            1054,
+            false
+          ]
+        },
+        "EnumerableSet.remove": {
+          "74": [
+            1438,
+            1458,
+            false
+          ],
+          "75": [
+            1696,
+            1722,
+            false
+          ]
+        }
+      },
       "12": {
         "YRegistry.getVaultData": {
           "64": [
@@ -9733,33 +9755,75 @@
       },
       "62": {},
       "68": {},
-      "7": {},
       "70": {},
-      "72": {},
-      "8": {
-        "EnumerableSet.add": {
-          "76": [
-            1034,
-            1054,
-            false
-          ]
-        },
-        "EnumerableSet.remove": {
-          "74": [
-            1438,
-            1458,
-            false
-          ],
-          "75": [
-            1696,
-            1722,
-            false
-          ]
-        }
-      }
+      "72": {}
     },
     "statements": {
       "1": {},
+      "7": {
+        "Address.isContract": {
+          "58": [
+            1238,
+            1289
+          ]
+        }
+      },
+      "8": {
+        "EnumerableSet.add": {
+          "60": [
+            1069,
+            1110
+          ],
+          "61": [
+            1124,
+            1135
+          ]
+        },
+        "EnumerableSet.contains": {
+          "59": [
+            2549,
+            2577
+          ]
+        },
+        "EnumerableSet.get": {
+          "49": [
+            3917,
+            3941
+          ]
+        },
+        "EnumerableSet.length": {
+          "48": [
+            3442,
+            3466
+          ]
+        },
+        "EnumerableSet.remove": {
+          "52": [
+            1881,
+            1918
+          ],
+          "53": [
+            1992,
+            2032
+          ],
+          "54": [
+            2148,
+            2171
+          ],
+          "55": [
+            2242,
+            2258
+          ],
+          "56": [
+            2273,
+            2284
+          ],
+          "57": [
+            2315,
+            2327
+          ]
+        }
+      },
       "12": {
         "YRegistry.acceptGovernance": {
           "5": [
@@ -9998,72 +10062,8 @@
       },
       "62": {},
       "68": {},
-      "7": {
-        "Address.isContract": {
-          "58": [
-            1238,
-            1289
-          ]
-        }
-      },
       "70": {},
-      "72": {},
-      "8": {
-        "EnumerableSet.add": {
-          "60": [
-            1069,
-            1110
-          ],
-          "61": [
-            1124,
-            1135
-          ]
-        },
-        "EnumerableSet.contains": {
-          "59": [
-            2549,
-            2577
-          ]
-        },
-        "EnumerableSet.get": {
-          "49": [
-            3917,
-            3941
-          ]
-        },
-        "EnumerableSet.length": {
-          "48": [
-            3442,
-            3466
-          ]
-        },
-        "EnumerableSet.remove": {
-          "52": [
-            1881,
-            1918
-          ],
-          "53": [
-            1992,
-            2032
-          ],
-          "54": [
-            2148,
-            2171
-          ],
-          "55": [
-            2242,
-            2258
-          ],
-          "56": [
-            2273,
-            2284
-          ],
-          "57": [
-            2315,
-            2327
-          ]
-        }
-      }
+      "72": {}
     }
   },
   "dependencies": [

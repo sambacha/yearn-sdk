@@ -2,11 +2,10 @@
 name: nodejs
 
 on: [push, pull_request]
-  
+
 env:
   CI: true
   FORCE_COLOR: 2
-
 
 jobs:
   run:
@@ -29,7 +28,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
-# Cache Optimization 
+      # Cache Optimization
 
       - uses: actions/cache@v2.1.4
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
@@ -44,25 +43,25 @@ jobs:
         env:
           CI: true
 
-# Semantic Distribution 
+      # Semantic Distribution
       - uses: cycjimmy/semantic-release-action@v2.5.3
         with:
-         semantic_version: 16
-         branches: |    
-           [
-            '+([0-9])?(.{+([0-9]),x}).x',
-            'master', 
-            'next', 
-            'next-major', 
-            {
-              name: 'beta', 
-              prerelease: true
-            }, 
-            {
-              name: 'alpha', 
-              prerelease: true
-            }
-           ]
-         extra_plugins: |
-          @semantic-release/changelog@3.0.0
+          semantic_version: 16
+          branches: |
+            [
+             '+([0-9])?(.{+([0-9]),x}).x',
+             'master', 
+             'next', 
+             'next-major', 
+             {
+               name: 'beta', 
+               prerelease: true
+             }, 
+             {
+               name: 'alpha', 
+               prerelease: true
+             }
+            ]
+          extra_plugins: |
+            @semantic-release/changelog@3.0.0
     #      @semantic-release/git

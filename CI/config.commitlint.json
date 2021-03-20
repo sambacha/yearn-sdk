@@ -1,11 +1,17 @@
- {
- "commitlint": {
+{
+  "commitlint": {
     "rules": {
-      "references-empty": [2, "never"]
+      "references-empty": [
+        2,
+        "never"
+      ]
     },
-   "parserPreset": {
+    "parserPreset": {
       "parserOpts": {
-        "issuePrefixes": ["PROJ-"]
+        "issuePrefixes": [
+          "PROJ-"
+        ]
       }
-    },
+    }
   }
+}

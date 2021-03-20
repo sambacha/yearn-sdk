@@ -29,8 +29,8 @@
     }
   ],
   "allSourcePaths": {
-    "11": "contracts/exploits/EvilGauge.sol",
-    "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol"
+    "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
+    "11": "contracts/exploits/EvilGauge.sol"
   },
   "ast": {
     "absolutePath": "contracts/exploits/EvilGauge.sol",
@@ -537,10 +537,11 @@
   "contractName": "EvilGauge",
   "coverageMap": {
     "branches": {
-      "11": {},
-      "5": {}
+      "5": {},
+      "11": {}
     },
     "statements": {
+      "5": {},
       "11": {
         "EvilGauge.deposit": {
           "0": [
@@ -548,8 +549,7 @@
             352
           ]
         }
-      },
-      "5": {}
+      }
     }
   },
   "dependencies": [

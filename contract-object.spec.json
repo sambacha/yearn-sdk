@@ -106,7 +106,9 @@
       }
     }
   },
-  "required": ["abi"],
+  "required": [
+    "abi"
+  ],
   "patternProperties": {
     "^x-": {
       "anyOf": [
@@ -175,11 +177,22 @@
       "items": {
         "type": "object",
         "properties": {
-          "id": { "type": "integer", "minimum": 0 },
-          "language": { "type": "string" },
-          "name": { "type": "string" },
-          "contents": { "type": "string" },
-          "ast": { "type": "object" }
+          "id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "language": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "contents": {
+            "type": "string"
+          },
+          "ast": {
+            "type": "object"
+          }
         },
         "additionalProperties": false
       }

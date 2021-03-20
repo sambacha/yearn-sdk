@@ -1,25 +1,24 @@
-
-
 # YearnFinance
 
-## Configuration Management 
-> `yearn_config.json` 
+## Configuration Management
 
-A global configuration file that can be found at the root of workspace and a 
-project-specific configuration file found at the root of each project that overrides 
+> `yearn_config.json`
+
+A global configuration file that can be found at the root of workspace and a
+project-specific configuration file found at the root of each project that overrides
 the global settings for that project.
 
 For instance, libA has a tsconfig.json file that extends the global tsconfig.json file:
 
 ```
-YEARN-applet // Applet, Plugin, Integration, a discrete package of libraries  etc 
+YEARN-applet // Applet, Plugin, Integration, a discrete package of libraries  etc
 ├── apps
 ├── libs
 │   └── libA
 │       ├── src
 │       └── tsconfig.json
 ├── tools
-├── workspace.json // can be for yarn , etc 
+├── workspace.json // can be for yarn , etc
 ├── yearn_config.json // customized configuration and hook entrypoint
 ├── package.json
 └── tsconfig.json
@@ -36,7 +35,7 @@ YEARN-SDK-monorepo
 │       │   └── YEARN-plugin.test.ts
 │       ├── tsconfig.json
 │       └── tsconfig.spec.json
-├── packages 
+├── packages
 │   └── YEARN-plugin
 │       ├── README.md
 │       ├── executors.json
@@ -67,10 +66,9 @@ YEARN-SDK-monorepo
 │   ├── generators
 │   └── tsconfig.tools.json
 ├── jest.config.js
-├── yearn_config.json // workspace configuration hook 
+├── yearn_config.json // workspace configuration hook
 ├── package.json
 ├── tsconfig.json
 ├── workspace.json
 └── yarn.lock
 ```
-

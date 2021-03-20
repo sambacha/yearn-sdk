@@ -1,9 +1,14 @@
 {
   "npmScope": "yearn-finance",
-  "affected": { "defaultBase": "master" },
+  "affected": {
+    "defaultBase": "master"
+  },
   "implicitDependencies": {
     "workspace.json": "*",
-    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
     "tsconfig.base.json": "*",
     "tslint.json": "*",
     ".eslintrc.json": "*",
@@ -12,12 +17,29 @@
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ]
+      }
     }
   },
   "projects": {
-    "ysdk-plugin": { "tags": [] },
-    "ysdk-plugin-e2e": { "tags": [], "implicitDependencies": ["ysdk-plugin"] }
+    "ysdk-plugin": {
+      "tags": []
+    },
+    "ysdk-plugin-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "ysdk-plugin"
+      ]
+    }
   },
-  "workspaceLayout": { "appsDir": "e2e", "libsDir": "packages" }
+  "workspaceLayout": {
+    "appsDir": "e2e",
+    "libsDir": "packages"
+  }
 }

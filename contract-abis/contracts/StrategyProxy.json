@@ -428,13 +428,13 @@
   ],
   "allSourcePaths": {
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
-    "30": "contracts/strategies/StrategyProxy.sol",
     "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
+    "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
+    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
+    "30": "contracts/strategies/StrategyProxy.sol",
     "52": "interfaces/curve/FeeDistribution.sol",
     "53": "interfaces/curve/Gauge.sol",
-    "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
-    "67": "interfaces/yearn/IProxy.sol",
-    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol"
+    "67": "interfaces/yearn/IProxy.sol"
   },
   "ast": {
     "absolutePath": "contracts/strategies/StrategyProxy.sol",
@@ -9109,6 +9109,32 @@
           ]
         }
       },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "58": [
+            3261,
+            3288,
+            true
+          ],
+          "59": [
+            3479,
+            3486,
+            true
+          ],
+          "60": [
+            3538,
+            3559,
+            false
+          ],
+          "61": [
+            3667,
+            3697,
+            true
+          ]
+        }
+      },
+      "7": {},
       "30": {
         "StrategyProxy.approveStrategy": {
           "52": [
@@ -9212,35 +9238,9 @@
           ]
         }
       },
-      "5": {},
       "52": {},
       "53": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "58": [
-            3261,
-            3288,
-            true
-          ],
-          "59": [
-            3479,
-            3486,
-            true
-          ],
-          "60": [
-            3538,
-            3559,
-            false
-          ],
-          "61": [
-            3667,
-            3697,
-            true
-          ]
-        }
-      },
-      "67": {},
-      "7": {}
+      "67": {}
     },
     "statements": {
       "1": {
@@ -9252,6 +9252,37 @@
           "38": [
             1837,
             1866
+          ]
+        }
+      },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "39": [
+            3253,
+            3324
+          ],
+          "40": [
+            3471,
+            3523
+          ],
+          "41": [
+            3659,
+            3744
+          ]
+        },
+        "SafeERC20.safeTransfer": {
+          "37": [
+            744,
+            829
+          ]
+        }
+      },
+      "7": {
+        "Address.isContract": {
+          "42": [
+            1238,
+            1289
           ]
         }
       },
@@ -9429,40 +9460,9 @@
           ]
         }
       },
-      "5": {},
       "52": {},
       "53": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "39": [
-            3253,
-            3324
-          ],
-          "40": [
-            3471,
-            3523
-          ],
-          "41": [
-            3659,
-            3744
-          ]
-        },
-        "SafeERC20.safeTransfer": {
-          "37": [
-            744,
-            829
-          ]
-        }
-      },
-      "67": {},
-      "7": {
-        "Address.isContract": {
-          "42": [
-            1238,
-            1289
-          ]
-        }
-      }
+      "67": {}
     }
   },
   "dependencies": [

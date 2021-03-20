@@ -557,11 +557,11 @@
     "1": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/math/SafeMath.sol",
     "3": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/ERC20.sol",
     "4": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/ERC20Detailed.sol",
-    "43": "contracts/vaults/yVault.sol",
     "5": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/IERC20.sol",
     "6": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/token/ERC20/SafeERC20.sol",
-    "62": "interfaces/yearn/IController.sol",
-    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol"
+    "7": "/Users/sbacha/.brownie/packages/OpenZeppelin/openzeppelin-contracts@2.5.1/contracts/utils/Address.sol",
+    "43": "contracts/vaults/yVault.sol",
+    "62": "interfaces/yearn/IController.sol"
   },
   "ast": {
     "absolutePath": "contracts/vaults/yVault.sol",
@@ -6945,6 +6945,32 @@
         }
       },
       "4": {},
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "84": [
+            3261,
+            3288,
+            true
+          ],
+          "85": [
+            3479,
+            3486,
+            true
+          ],
+          "86": [
+            3538,
+            3559,
+            false
+          ],
+          "87": [
+            3667,
+            3697,
+            true
+          ]
+        }
+      },
+      "7": {},
       "43": {
         "yVault.harvest": {
           "71": [
@@ -6992,33 +7018,7 @@
           ]
         }
       },
-      "5": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "84": [
-            3261,
-            3288,
-            true
-          ],
-          "85": [
-            3479,
-            3486,
-            true
-          ],
-          "86": [
-            3538,
-            3559,
-            false
-          ],
-          "87": [
-            3667,
-            3697,
-            true
-          ]
-        }
-      },
-      "62": {},
-      "7": {}
+      "62": {}
     },
     "statements": {
       "0": {
@@ -7229,6 +7229,43 @@
           ]
         }
       },
+      "5": {},
+      "6": {
+        "SafeERC20.callOptionalReturn": {
+          "66": [
+            3253,
+            3324
+          ],
+          "67": [
+            3471,
+            3523
+          ],
+          "68": [
+            3659,
+            3744
+          ]
+        },
+        "SafeERC20.safeTransfer": {
+          "39": [
+            744,
+            829
+          ]
+        },
+        "SafeERC20.safeTransferFrom": {
+          "61": [
+            942,
+            1037
+          ]
+        }
+      },
+      "7": {
+        "Address.isContract": {
+          "70": [
+            1238,
+            1289
+          ]
+        }
+      },
       "43": {
         "yVault.available": {
           "18": [
@@ -7355,44 +7392,7 @@
           ]
         }
       },
-      "5": {},
-      "6": {
-        "SafeERC20.callOptionalReturn": {
-          "66": [
-            3253,
-            3324
-          ],
-          "67": [
-            3471,
-            3523
-          ],
-          "68": [
-            3659,
-            3744
-          ]
-        },
-        "SafeERC20.safeTransfer": {
-          "39": [
-            744,
-            829
-          ]
-        },
-        "SafeERC20.safeTransferFrom": {
-          "61": [
-            942,
-            1037
-          ]
-        }
-      },
-      "62": {},
-      "7": {
-        "Address.isContract": {
-          "70": [
-            1238,
-            1289
-          ]
-        }
-      }
+      "62": {}
     }
   },
   "dependencies": [
