@@ -761,10 +761,10 @@
     crypto-js "^3.1.9-1"
     debug "^4.3.1"
 
-"@typechain/ethers-v5@6.0.4":
-  version "6.0.4"
-  resolved "https://registry.npmjs.org/@typechain/ethers-v5/-/ethers-v5-6.0.4.tgz"
-  integrity sha512-m6mLwkwBtjmTfrMdvB+sZgbKSsMkfTCV5g2aqxZJFMyX1b9vLNPyqStmUQ8LaNs6ipCkG6+Q7erXJEkdjoDBSA==
+"@typechain/ethers-v5@6.0.5":
+  version "6.0.5"
+  resolved "https://registry.npmjs.org/@typechain/ethers-v5/-/ethers-v5-6.0.5.tgz"
+  integrity sha512-KJh+EWuxmX1a17fQWS1ba8DCYcqK7UpdbqMZZwyfiv9FQfn8ZQJX17anbkCMOSU8TV3EvRuJ/vFEKGzKnpkO8g==
 
 "@typechain/ethers-v5@^2.0.0":
   version "2.0.0"
