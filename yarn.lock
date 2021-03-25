@@ -731,15 +731,14 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@truffle/abi-utils@0.1.5":
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/@truffle/abi-utils/-/abi-utils-0.1.5.tgz"
-  integrity sha512-PvCN/qebM0boK2YycX3sMe6CwoLtB7cpYj2ugHPtcQ+Zpg1hQRGS+GRLeBuQg3RR5X8IxzLb4YPZh5dnJxMZYA==
+"@truffle/abi-utils@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/@truffle/abi-utils/-/abi-utils-0.1.6.tgz"
+  integrity sha512-A9bW5XHywPNHod8rsu4x4eyM4C6k3eMeyOCd47edhiA/e9kgAVp6J3QDzKoHS8nuJ2qiaq+jk5bLnAgNWAHYyQ==
   dependencies:
     change-case "3.0.2"
     faker "^5.3.1"
     fast-check "^2.12.1"
-    source-map-support "^0.5.19"
 
 "@truffle/artifactor@4.0.99":
   version "4.0.99"
