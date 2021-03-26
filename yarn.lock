@@ -740,16 +740,15 @@
     faker "^5.3.1"
     fast-check "^2.12.1"
 
-"@truffle/artifactor@4.0.99":
-  version "4.0.99"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.99.tgz"
-  integrity sha512-E4GenDI7ylEBU6jhDl6L2uy+L1XO4Nxd1c0y3JJg4IEMU9meo6S39IRZeHThsI9+F4iBpL7zmMTunqbKRUzCRQ==
+"@truffle/artifactor@4.0.100":
+  version "4.0.100"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.100.tgz"
+  integrity sha512-15UB7NWE8FhmtxmJaIiykPiNfhDFCeXZlNlKH84tlqnhU6G72EtKX2xOQWMSsTi4gES0FVvdshs3CtaTYPsFJA==
   dependencies:
     "@truffle/contract-schema" "^3.3.4"
     fs-extra "^9.1.0"
     lodash.assign "^4.2.0"
     lodash.merge "^4.6.2"
-    source-map-support "^0.5.19"
 
 "@truffle/contract-schema@3.3.4", "@truffle/contract-schema@^3.3.4":
   version "3.3.4"
@@ -6991,7 +6990,7 @@ source-map-support@^0.4.15:
   dependencies:
     source-map "^0.5.6"
 
-source-map-support@^0.5.13, source-map-support@^0.5.17, source-map-support@^0.5.19:
+source-map-support@^0.5.13, source-map-support@^0.5.17:
   version "0.5.19"
   resolved "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.19.tgz"
   integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
