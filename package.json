@@ -34,7 +34,7 @@
     "typechain": "4.0.3",
     "typescript": "4.2.4",
     "@truffle/abi-utils": "0.1.6",
-    "@truffle/artifactor": "4.0.100",
+    "@truffle/artifactor": "4.0.101",
     "@truffle/contract-schema": "3.3.4",
     "debug": "4.3.1",
     "json-schema-to-typescript": "10.1.4",

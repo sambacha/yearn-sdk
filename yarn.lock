@@ -824,10 +824,10 @@
     faker "^5.3.1"
     fast-check "^2.12.1"
 
-"@truffle/artifactor@4.0.100":
-  version "4.0.100"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.100.tgz"
-  integrity sha512-15UB7NWE8FhmtxmJaIiykPiNfhDFCeXZlNlKH84tlqnhU6G72EtKX2xOQWMSsTi4gES0FVvdshs3CtaTYPsFJA==
+"@truffle/artifactor@4.0.101":
+  version "4.0.101"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.101.tgz"
+  integrity sha512-rrnO2Cm2Vqcq3gUW1zLDsBrmfqTz0nctlQYfc6gtH/v7Ba1iGW4yLxf9kfGRhoCAxvEQbv+zReWS36Llr22uXg==
   dependencies:
     "@truffle/contract-schema" "^3.3.4"
     fs-extra "^9.1.0"
@@ -3337,7 +3337,6 @@ ethereumjs-abi@0.6.5:
 ethereumjs-abi@0.6.8, ethereumjs-abi@^0.6.8, "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version "0.6.8"
   resolved "git+ssh://git@github.com/ethereumjs/ethereumjs-abi.git#1ce6a1d64235fabe2aaf827fd606def55693508f"
-  integrity sha512-wi9Z2SJADILAB9hIHiA/qMu2c4X+34LV4SFk3zqoXKk2u99S+WuwYBKly+drMaXxAIdHESeVgm3DH4NM3k8zgw==
   dependencies:
     bn.js "^4.11.8"
     ethereumjs-util "^6.0.0"
@@ -7701,7 +7700,7 @@ typedarray@^0.0.6:
 
 typescript@4.2.4:
   version "4.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz"
   integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
 
 typewise-core@^1.2, typewise-core@^1.2.0:
