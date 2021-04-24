@@ -883,16 +883,7 @@
     lodash.assign "^4.2.0"
     lodash.merge "^4.6.2"
 
-"@truffle/contract-schema@3.3.4":
-  version "3.3.4"
-  resolved "https://registry.npmjs.org/@truffle/contract-schema/-/contract-schema-3.3.4.tgz"
-  integrity sha512-HzscBl/GhZBvPNQeD9l6ewSHSkvNmE+bA0iTVa0Y2mNf5GD5Y3fK2NPyfbOdtckOvLqebvYGEDEPRiXc3BZ05g==
-  dependencies:
-    ajv "^6.10.0"
-    crypto-js "^3.1.9-1"
-    debug "^4.3.1"
-
-"@truffle/contract-schema@^3.4.0":
+"@truffle/contract-schema@3.4.0", "@truffle/contract-schema@^3.4.0":
   version "3.4.0"
   resolved "https://registry.npmjs.org/@truffle/contract-schema/-/contract-schema-3.4.0.tgz"
   integrity sha512-Kk2t7r98tiL3nxj0/4ukZ7Asvi5K/5JlHuI3jM7dXAMhrWYrt+nf5LZVwJPd1nlzuZy8WK4AgSj2B1vCTz/AlQ==
