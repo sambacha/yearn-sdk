@@ -864,10 +864,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@truffle/abi-utils@0.1.6":
-  version "0.1.6"
-  resolved "https://registry.npmjs.org/@truffle/abi-utils/-/abi-utils-0.1.6.tgz"
-  integrity sha512-A9bW5XHywPNHod8rsu4x4eyM4C6k3eMeyOCd47edhiA/e9kgAVp6J3QDzKoHS8nuJ2qiaq+jk5bLnAgNWAHYyQ==
+"@truffle/abi-utils@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@truffle/abi-utils/-/abi-utils-0.2.0.tgz"
+  integrity sha512-gVT5ns79akL17AcBSIP+Dl0XZaD5Nu/aWwP9eMgn0L/kqxyEo1qMcQwE5hVxP8QJUHnvv6n5lKAmAY3BKAqpkg==
   dependencies:
     change-case "3.0.2"
     faker "^5.3.1"
