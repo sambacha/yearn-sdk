@@ -873,10 +873,10 @@
     faker "^5.3.1"
     fast-check "^2.12.1"
 
-"@truffle/artifactor@4.0.102":
-  version "4.0.102"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.102.tgz"
-  integrity sha512-nYPCOrorvr36QlO8Vf2SsmOdLpXpUGwVAx7HFDvlVBA3HRvFL+ZYO9P8s2XyOH3X13UAaYrX1T5bEe7K+ICT9Q==
+"@truffle/artifactor@4.0.103":
+  version "4.0.103"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.103.tgz"
+  integrity sha512-+R6VxvDAeWPuAkTpDMqKGbB+SUhOfSKaIDo7aFRygVB7ufNy1iAXA99JUxz6CtUVTzaqOG0OTmzv/qQ6R1BIgw==
   dependencies:
     "@truffle/contract-schema" "^3.4.0"
     fs-extra "^9.1.0"
