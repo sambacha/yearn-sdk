@@ -38,7 +38,7 @@
     "@nrwl/tao": "12.3.6",
     "@nrwl/workspace": "12.3.6",
     "@types/jest": "26.0.23",
-    "@types/node": "14.17.1",
+    "@types/node": "14.17.2",
     "@typescript-eslint/eslint-plugin": "4.26.0",
     "@typescript-eslint/parser": "4.26.0",
     "dotenv": "10.0.0",
