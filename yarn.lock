@@ -717,7 +717,7 @@
 
 "@truffle/artifactor@4.0.107":
   version "4.0.107"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.107.tgz"
+  resolved "https://registry.yarnpkg.com/@truffle/artifactor/-/artifactor-4.0.107.tgz#3b899be288704f96b966cc6dc55dff879796bcb4"
   integrity sha512-nZydnyZhZkQJYKWMtoeg5zvcRqU/qMeKJxn/FMKy1fv8OyFA7eXI3i+SwpuMxgpaFnTa29+8CXq4uQWRGAvwyw==
   dependencies:
     "@truffle/contract-schema" "^3.4.1"
@@ -846,10 +846,15 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@14.17.1":
+"@types/node@*":
   version "14.17.1"
   resolved "https://registry.npmjs.org/@types/node/-/node-14.17.1.tgz"
   integrity sha512-/tpUyFD7meeooTRwl3sYlihx2BrJE7q9XF71EguPFIySj9B7qgnRtHsHTho+0AUm4m1SvWGm6uSncrR94q6Vtw==
+
+"@types/node@14.17.2":
+  version "14.17.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.2.tgz#1e94476db57ec93a372c7f7d29aa5707cfb92339"
+  integrity sha512-sld7b/xmFum66AAKuz/rp/CUO8+98fMpyQ3SBfzzBNGMd/1iHBTAg9oyAvcYlAj46bpc74r91jSw2iFdnx29nw==
 
 "@types/node@^12.12.6":
   version "12.19.15"
@@ -7774,7 +7779,7 @@ typedarray@^0.0.6:
 
 typescript@4.3.2:
   version "4.3.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.3.2.tgz"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
   integrity sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==
 
 typewise-core@^1.2, typewise-core@^1.2.0:
