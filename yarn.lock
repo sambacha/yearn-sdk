@@ -865,10 +865,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@truffle/abi-utils@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@truffle/abi-utils/-/abi-utils-0.2.1.tgz"
-  integrity sha512-Ba05gGBzTqjzgpQ8Fpfny47HD3aMn7+LWZ44A0HXdMgn1d5bxjR8SPYlXV5jo5fpOOvsghfQTvSUk0G9fg2fIg==
+"@truffle/abi-utils@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/@truffle/abi-utils/-/abi-utils-0.2.2.tgz"
+  integrity sha512-GRphTbgqrsz0B43t5gNGRlMNV/L3LUv9oZXWqw6+ySEiZo1l/p6AA8cPmHp9jbA/dHyqx4MKSQ94qTR2siy0Eg==
   dependencies:
     change-case "3.0.2"
     faker "^5.3.1"
@@ -3473,6 +3473,7 @@ ethereumjs-abi@0.6.5:
 ethereumjs-abi@0.6.8, ethereumjs-abi@^0.6.8, "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version "0.6.8"
   resolved "git+ssh://git@github.com/ethereumjs/ethereumjs-abi.git#1ce6a1d64235fabe2aaf827fd606def55693508f"
+  integrity sha512-sfpG4fyD67Iu4ENpq+Am9ZxMVrArLiMaBFMg7AQnPZg5AwG5UCy1J72o0Z6hXzX5+DPsZTniH6Sw86QWYrFeVA==
   dependencies:
     bn.js "^4.11.8"
     ethereumjs-util "^6.0.0"
