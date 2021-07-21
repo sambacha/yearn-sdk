@@ -3480,6 +3480,7 @@ ethereumjs-abi@0.6.5:
 ethereumjs-abi@0.6.8, ethereumjs-abi@^0.6.8, "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version "0.6.8"
   resolved "git+ssh://git@github.com/ethereumjs/ethereumjs-abi.git#1ce6a1d64235fabe2aaf827fd606def55693508f"
+  integrity sha512-sfpG4fyD67Iu4ENpq+Am9ZxMVrArLiMaBFMg7AQnPZg5AwG5UCy1J72o0Z6hXzX5+DPsZTniH6Sw86QWYrFeVA==
   dependencies:
     bn.js "^4.11.8"
     ethereumjs-util "^6.0.0"
@@ -4367,10 +4368,10 @@ hardhat-typechain@0.3.5:
   resolved "https://registry.npmjs.org/hardhat-typechain/-/hardhat-typechain-0.3.5.tgz"
   integrity sha512-w9lm8sxqTJACY+V7vijiH+NkPExnmtiQEjsV9JKD1KgMdVk2q8y+RhvU/c4B7+7b1+HylRUCxpOIvFuB3rE4+w==
 
-hardhat@2.4.3:
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/hardhat/-/hardhat-2.4.3.tgz"
-  integrity sha512-xgbnhEnmaKau8xT6wPJlzoyMLAZyxQoElACQQCyEeAY1DURpZbYwjIQUywmL/ZNv3QEl38Yqu/n8mPOc2HXyGA==
+hardhat@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.npmjs.org/hardhat/-/hardhat-2.5.0.tgz"
+  integrity sha512-S5CWcmiFZlFF2qFGyf5LlgVnJDXwTs5UBKU3GPQCjsUD3NAIWzXr/4xDSij3YWdg751axgLiKAJM01cHcxGb7A==
   dependencies:
     "@ethereumjs/block" "^3.4.0"
     "@ethereumjs/blockchain" "^5.4.0"
