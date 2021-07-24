@@ -329,10 +329,10 @@
     "@ethersproject/bytes" "^5.4.0"
     "@ethersproject/properties" "^5.4.0"
 
-"@ethersproject/bignumber@5.4.0", "@ethersproject/bignumber@^5.0.7", "@ethersproject/bignumber@^5.4.0":
-  version "5.4.0"
-  resolved "https://registry.npmjs.org/@ethersproject/bignumber/-/bignumber-5.4.0.tgz"
-  integrity sha512-OXUu9f9hO3vGRIPxU40cignXZVaYyfx6j9NNMjebKdnaCL3anCLSSy8/b8d03vY6dh7duCC0kW72GEC4tZer2w==
+"@ethersproject/bignumber@5.4.1", "@ethersproject/bignumber@^5.0.7", "@ethersproject/bignumber@^5.4.0":
+  version "5.4.1"
+  resolved "https://registry.npmjs.org/@ethersproject/bignumber/-/bignumber-5.4.1.tgz"
+  integrity sha512-fJhdxqoQNuDOk6epfM7yD6J8Pol4NUCy1vkaGAkuujZm0+lNow//MKu1hLhRiYV4BsOHyBv5/lsTjF+7hWwhJg==
   dependencies:
     "@ethersproject/bytes" "^5.4.0"
     "@ethersproject/logger" "^5.4.0"
@@ -518,10 +518,10 @@
   dependencies:
     "@ethersproject/logger" "^5.0.8"
 
-"@ethersproject/providers@5.4.1":
-  version "5.4.1"
-  resolved "https://registry.npmjs.org/@ethersproject/providers/-/providers-5.4.1.tgz"
-  integrity sha512-p06eiFKz8nu/5Ju0kIX024gzEQIgE5pvvGrBCngpyVjpuLtUIWT3097Agw4mTn9/dEA0FMcfByzFqacBMSgCVg==
+"@ethersproject/providers@5.4.2":
+  version "5.4.2"
+  resolved "https://registry.npmjs.org/@ethersproject/providers/-/providers-5.4.2.tgz"
+  integrity sha512-Qr8Am8hlj2gL9HwNymhFlYd52MQVVEBLoDwPxhv4ASeyNpaoRiUAQnNEuE6SnEQtiwYkpLrQtSALNLUSeyuvjA==
   dependencies:
     "@ethersproject/abstract-provider" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
@@ -3681,10 +3681,10 @@ ethereumjs-wallet@0.6.5:
     utf8 "^3.0.0"
     uuid "^3.3.2"
 
-ethers@5.4.1, ethers@^5.0.0, ethers@^5.0.1, ethers@^5.0.2:
-  version "5.4.1"
-  resolved "https://registry.npmjs.org/ethers/-/ethers-5.4.1.tgz"
-  integrity sha512-SrcddMdCgP1hukDvCPd87Aipbf4NWjQvdfAbZ65XSZGbfyuYPtIrUJPDH5B1SBRsdlfiEgX3eoz28DdBDzMNFg==
+ethers@5.4.2, ethers@^5.0.0, ethers@^5.0.1, ethers@^5.0.2:
+  version "5.4.2"
+  resolved "https://registry.npmjs.org/ethers/-/ethers-5.4.2.tgz"
+  integrity sha512-JcFcNWjULzhm4tMp5cZKnU45zqN/c7rqabIITiUiQzZuP7LcYSD4WAbADo4Ja6G2orU4d/PbhAWGHGtAKYrB4Q==
   dependencies:
     "@ethersproject/abi" "5.4.0"
     "@ethersproject/abstract-provider" "5.4.0"
@@ -3692,7 +3692,7 @@ ethers@5.4.1, ethers@^5.0.0, ethers@^5.0.1, ethers@^5.0.2:
     "@ethersproject/address" "5.4.0"
     "@ethersproject/base64" "5.4.0"
     "@ethersproject/basex" "5.4.0"
-    "@ethersproject/bignumber" "5.4.0"
+    "@ethersproject/bignumber" "5.4.1"
     "@ethersproject/bytes" "5.4.0"
     "@ethersproject/constants" "5.4.0"
     "@ethersproject/contracts" "5.4.0"
@@ -3704,7 +3704,7 @@ ethers@5.4.1, ethers@^5.0.0, ethers@^5.0.1, ethers@^5.0.2:
     "@ethersproject/networks" "5.4.1"
     "@ethersproject/pbkdf2" "5.4.0"
     "@ethersproject/properties" "5.4.0"
-    "@ethersproject/providers" "5.4.1"
+    "@ethersproject/providers" "5.4.2"
     "@ethersproject/random" "5.4.0"
     "@ethersproject/rlp" "5.4.0"
     "@ethersproject/sha2" "5.4.0"
