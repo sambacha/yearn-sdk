@@ -874,23 +874,31 @@
     faker "^5.3.1"
     fast-check "^2.12.1"
 
-"@truffle/artifactor@4.0.113":
-  version "4.0.113"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.113.tgz"
-  integrity sha512-EOZysDo6xXb2UsVMlGf9QimxkUXflxydBbDb6owD2B4A0FhZOvHVmkedRYi3PG6Jszj57zPM6ZnkdbKsLFsOdw==
+"@truffle/artifactor@4.0.114":
+  version "4.0.114"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.114.tgz"
+  integrity sha512-VQo7vJdObZqsjsZQlPkZ5iFnRX6NoJE42LrMPFHXXJdm+bgXFt8ohR+0kpurwGMoyDIQTCwBZdjshclupW1F1g==
   dependencies:
-    "@truffle/contract-schema" "^3.4.1"
+    "@truffle/contract-schema" "^3.4.2"
     fs-extra "^9.1.0"
     lodash.assign "^4.2.0"
     lodash.merge "^4.6.2"
 
-"@truffle/contract-schema@3.4.1", "@truffle/contract-schema@^3.4.1":
+"@truffle/contract-schema@3.4.1":
   version "3.4.1"
   resolved "https://registry.npmjs.org/@truffle/contract-schema/-/contract-schema-3.4.1.tgz"
   integrity sha512-2gvu6gxJtbbI67H2Bwh2rBuej+1uCV3z4zKFzQZP00hjNoL+QfybrmBcOVB88PflBeEB+oUXuwQfDoKX3TXlnQ==
   dependencies:
     ajv "^6.10.0"
     crypto-js "^3.1.9-1"
+    debug "^4.3.1"
+
+"@truffle/contract-schema@^3.4.2":
+  version "3.4.2"
+  resolved "https://registry.npmjs.org/@truffle/contract-schema/-/contract-schema-3.4.2.tgz"
+  integrity sha512-ruTdZFX8omA60SNV6X+gFRONn5WAoJxSim21bGPW1kGGxJioLpffZ8qE2YKB44BI81wVS2awWQPebIv4BYvmxQ==
+  dependencies:
+    ajv "^6.10.0"
     debug "^4.3.1"
 
 "@tsconfig/node10@^1.0.7":
