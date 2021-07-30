@@ -874,10 +874,10 @@
     faker "^5.3.1"
     fast-check "^2.12.1"
 
-"@truffle/artifactor@4.0.114":
-  version "4.0.114"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.114.tgz"
-  integrity sha512-VQo7vJdObZqsjsZQlPkZ5iFnRX6NoJE42LrMPFHXXJdm+bgXFt8ohR+0kpurwGMoyDIQTCwBZdjshclupW1F1g==
+"@truffle/artifactor@4.0.115":
+  version "4.0.115"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.115.tgz"
+  integrity sha512-zZCPe0da6tF2L9cO+NcVvSsEATnIGRhk3Ct6xWW0vFsfZSo72nKusbFM0z7+IwAvKqF4Hkw99Mf/bLOUdya1rQ==
   dependencies:
     "@truffle/contract-schema" "^3.4.2"
     fs-extra "^9.1.0"
