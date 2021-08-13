@@ -823,20 +823,28 @@
     faker "^5.3.1"
     fast-check "^2.12.1"
 
-"@truffle/artifactor@4.0.117":
-  version "4.0.117"
-  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.117.tgz"
-  integrity sha512-OuQSb9vtgy3jNbeiQjGyGxjhHYyZNx53wmWgPB6vPYXhc+6FHT3u02lgtQXkykhVmuYTpbQCnPozqSK4m5bA3w==
+"@truffle/artifactor@4.0.118":
+  version "4.0.118"
+  resolved "https://registry.npmjs.org/@truffle/artifactor/-/artifactor-4.0.118.tgz"
+  integrity sha512-B4exGyOmIOWPZ84dl+vqowE9bXDtijmFOPCuR1W8WDLg/3eCVmzct9GkLlbdVxUPMgAavpeGTIeU2RswGR8LeA==
   dependencies:
-    "@truffle/contract-schema" "^3.4.2"
+    "@truffle/contract-schema" "^3.4.3"
     fs-extra "^9.1.0"
     lodash.assign "^4.2.0"
     lodash.merge "^4.6.2"
 
-"@truffle/contract-schema@3.4.2", "@truffle/contract-schema@^3.4.2":
+"@truffle/contract-schema@3.4.2":
   version "3.4.2"
   resolved "https://registry.npmjs.org/@truffle/contract-schema/-/contract-schema-3.4.2.tgz"
   integrity sha512-ruTdZFX8omA60SNV6X+gFRONn5WAoJxSim21bGPW1kGGxJioLpffZ8qE2YKB44BI81wVS2awWQPebIv4BYvmxQ==
+  dependencies:
+    ajv "^6.10.0"
+    debug "^4.3.1"
+
+"@truffle/contract-schema@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.npmjs.org/@truffle/contract-schema/-/contract-schema-3.4.3.tgz"
+  integrity sha512-pgaTgF4CKIpkqVYZVr2qGTxZZQOkNCWOXW9VQpKvLd4G0SNF2Y1gyhrFbBhoOUtYlbbSty+IEFFHsoAqpqlvpQ==
   dependencies:
     ajv "^6.10.0"
     debug "^4.3.1"
@@ -3420,6 +3428,7 @@ ethereumjs-abi@0.6.5:
 ethereumjs-abi@0.6.8, ethereumjs-abi@^0.6.8, "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
   version "0.6.8"
   resolved "git+ssh://git@github.com/ethereumjs/ethereumjs-abi.git#1ce6a1d64235fabe2aaf827fd606def55693508f"
+  integrity sha512-sfpG4fyD67Iu4ENpq+Am9ZxMVrArLiMaBFMg7AQnPZg5AwG5UCy1J72o0Z6hXzX5+DPsZTniH6Sw86QWYrFeVA==
   dependencies:
     bn.js "^4.11.8"
     ethereumjs-util "^6.0.0"
